@@ -4,13 +4,13 @@
 
     h1{
         text-align: center;
-        background-color: aqua;
+        background-color: rgb(61, 146, 146);
         border-radius: 450%;
         color:#03380c
     }
 #paragrafodiferente{
-    font-size: 30px;
-    color: #100a66;
+    font-size: 25px;
+    color: #040222;
 }
     p{
         text-align: justify;
