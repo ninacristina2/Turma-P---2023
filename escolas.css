@@ -5,12 +5,12 @@ padding: 20px 0;
 
 .caixa {
 position: relative;
-width: 940px;
+width: 740px;
 margin: 0 auto;
 }
 
 .logo {
-width: 20%;
+width: 35%;
 }
 
 nav{ 
@@ -32,8 +32,13 @@ font-size: 22px;
 text-decoration: none;
 }
 
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline; 
+}
+
 .escolas {
-    width: 940px;
+    width: 1040px;
     margin: 0 auto;
     padding: 50px 0;
 }
@@ -41,16 +46,30 @@ text-decoration: none;
 .escolas li {
     display: inline-block;
     text-align: center;
-    width: 33%;
+    width: 30%;
     vertical-align: top;
-    margin: 0 1,5%;
+    margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.escolas li:hover {
+    border-color:#C78C19; 
+}
+
+.escolas li:active {
+    border-color: #088C19;
 }
 
 .escolas h2 {
     font-size: 25px;
     font-weight: bold;
+}
+
+.escolas li:hover h2 {
+    font-size: 35px; 
 }
 
 
@@ -63,3 +82,18 @@ font-size: 18px;
     font-weight: bold; 
     margin-top: 10px;
 }
+footer {
+    text-align: center;
+    background: url("background cinza.png");
+    padding: 20px 0;
+ }
+
+ .rodape{
+    width: 25%;
+ }
+
+ .copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0 ;
+ }
