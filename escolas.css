@@ -1,5 +1,5 @@
 header {
-background-color: rgb(241, 185, 185);
+background-color: rgb(61, 146, 146);
 padding: 20px 0;
 }
 
@@ -7,10 +7,12 @@ padding: 20px 0;
 position: relative;
 width: 740px;
 margin: 0 auto;
+
 }
 
 .logo {
 width: 35%;
+
 }
 
 nav{ 
@@ -93,6 +95,7 @@ footer {
  }
 
  .copyright {
+    text-align: center;
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0 ;

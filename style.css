@@ -1,5 +1,37 @@
-    body{
-        background:#e0a8a8;
+.caixa {
+    position: relative;
+    width: 740px;
+    margin: 0 auto; 
+}
+.logo {
+    width: 25%;
+    }
+    nav{ 
+        position: absolute; 
+        top: 50px; 
+        right: 0px; 
+       }
+       
+       nav li {
+       display: inline;
+       margin: 0 0 0 -25px;
+       }
+       
+       nav a {
+       text-transform: uppercase;
+       color: black;
+       font-weight: bold;
+       font-size: 22px;
+       text-decoration: none;
+       }
+       
+       nav a:hover {
+           color: #C78C19;
+           text-decoration: underline; 
+       }
+
+body{
+        background:#f3dfdf;
         font-size: 20px;    }
 
     h1{
@@ -9,7 +41,7 @@
         color:#03380c
     }
 #paragrafodiferente{
-    font-size: 25px;
+    font-size: 20px;
     color: #040222;
 }
     p{
@@ -24,14 +56,14 @@
 
 }
 li::marker{
-    font-size: 25xp;
+    font-size: 20xp;
     color: #B22222;
     content: "\1F61C";
 }
  ul{
     display: inline-block;
     vertical-align: top;
-    width: 30%;
+    width: 35%;
     margin-right: 0%;
  }
 
@@ -50,7 +82,23 @@ li::marker{
       color: #8B0000;  
     }
     .imagem{
-        width: 35%;
+        width: 20%;
         border: solid #100a66;
         padding: 20px;
     }
+    footer {
+        text-align: center;
+        background: url("background cinza.png");
+        padding: 20px 0;
+     }
+    
+     .rodape{
+        width: 25%;
+     }
+    
+     .copyright {
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 13px;
+        margin: 20px 0 0 ;
+     }
